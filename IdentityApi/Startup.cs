@@ -58,7 +58,7 @@ namespace IdentityApi
             app.UseCors();
             app.UseSwagger();
 
-            if (env.IsDevelopment())
+            //if (env.IsDevelopment())
             {
                 app.UseSwaggerUI(c =>
                 {
